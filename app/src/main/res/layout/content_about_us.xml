@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mcccafe.splashscreen.AboutUs"
+
+    tools:showIn="@layout/activity_about_us">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us:"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="3dp"
+        android:id="@+id/about_id_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:textSize="17dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/about_id"
+        android:layout_below="@+id/about_id_title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We promise:"
+        android:textSize="25dp"
+        android:layout_below="@+id/about_id"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/about_pr_id"/>
+    <TextView
+        android:id="@+id/p_a_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:text="•	An easy and instant recharging process."
+        android:layout_below="@+id/about_pr_id"/>
+    <TextView
+        android:id="@+id/p_a_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:text="•	A hassle-free online experience"
+        android:layout_below="@+id/p_a_1"/>
+    <TextView
+        android:id="@+id/p_a_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:text="• A safe and secure payment process"
+        android:layout_below="@+id/p_a_2"/>
+    <TextView
+        android:id="@+id/p_a_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="5dp"
+        android:text="• Best discount available app in the market"
+        android:layout_below="@+id/p_a_3"/>
+    <TextView
+        android:id="@+id/p_a_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="• And a totally satisfied you,who will want to come back to us again and again."
+        android:layout_below="@+id/p_a_4"
+        android:textSize="17dp"/>
+
+</RelativeLayout>

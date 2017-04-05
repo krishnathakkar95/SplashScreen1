@@ -1,3 +1,58 @@
 <resources>
     <string name="app_name">SplashScreen</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_mobile_no">MobileNoActivity</string>
+    <string-array name="Operator">
+        <item>Vodafone</item>
+        <item>Airtel</item>
+        <item>Idea</item>
+        <item>BSNL</item>
+        <item>Telenor</item>
+    </string-array>
+    <string name="title_activity_dth_no">DthNoActivity</string>
+    <string-array name="DthOperator">
+        <item>Tata Sky</item>
+        <item>Airtel Digital TV</item>
+        <item>Videocon D2H</item>
+        <item>Dish TV</item>
+        <item>Reliance Digital TV</item>
+    </string-array>
+    <string-array name="AccList">
+        <item>Your Profile</item>
+        <item>Edit Profile</item>
+        <item>View transaction history</item>
+        <item>Change Password</item>
+    </string-array>
+    <string name="about">This app automates the management of Telecom service,which involves customer applications,inquiries,bill,recharges,feedback.In this app all activities through on line.The main advantage of this System is reduce manpower.This app is extremely flexible and can help you to get different type of Plans.For example,Prepaid plan,Postpaid plan,DTH bill payment and also Offers/Tarifs.With this system you have the possibility to manage and maintain applicants and the transactions and payments for each one.</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_offers">Offers</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_terms_of_services">TermsOfServices</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_prepaid_plans">PrepaidPlans</string>
+    <string name="title_activity_post_paid_plans">PostPaidPlans</string>
+    <string name="title_activity_prapaid_airtel">PrapaidAirtel</string>
+    <string name="title_activity_postpaid_airtel">PostpaidAirtel</string>
+    <string name="title_activity_prepaid_idea">PrepaidIdea</string>
+    <string name="title_activity_postpaid_idea">PostpaidIdea</string>
+    <string name="title_activity_prepaid_bsnl">PrepaidBSNL</string>
+    <string name="title_activity_postpaid_bsnl">PostpaidBSNL</string>
+    <string name="title_activity_prepaid_telenor">PrepaidTelenor</string>
+    <string name="title_activity_postpaid_telenor">PostpaidTelenor</string>
+    <string name="title_activity_vodafone_plans">VodafonePlans</string>
+    <string name="title_activity_airtel_plans">AirtelPlans</string>
+    <string name="title_activity_idea_plans">IdeaPlans</string>
+    <string name="title_activity_bsnlplans">BSNLPlans</string>
+    <string name="title_activity_telenor_plans">TelenorPlans</string>
+    <string name="title_activity_your_profile">YourProfile</string>
+    <string name="title_activity_view_transaction_history">ViewTransactionHistory</string>
 </resources>

@@ -1,25 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.example.mcccafe.splashscreen">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mcccafe.splashscreen">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sss"
+        android:label="Easy charge"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<application android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label=" SplashScreen"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme">
-
-    <activity android:name=".SplashActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity android:name=".LoginActivity"
-        android:screenOrientation="portrait"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        />
-
-
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Forgetpassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MobileNoActivity"
+            android:label="@string/title_activity_mobile_no"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".DthNoActivity"
+            android:label="@string/title_activity_dth_no"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountActivity"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:label="Edit Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrepaidVodafone"
+            android:label="Prepaid Plans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostpaidTelenor"
+            android:label="Postpaid Plans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VodafonePlans"
+            android:label="@string/title_activity_vodafone_plans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YourProfile"
+            android:label="Your Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewTransactionHistory"
+            android:label="History"
+            android:theme="@style/AppTheme.NoActionBar"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
 
 </manifest>
